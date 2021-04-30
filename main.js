@@ -46,7 +46,6 @@
         for (let i = 0; i < maxPredictions; i++) {
             const classPrediction =
                 prediction[i].className + ": " + prediction[i].probability.toFixed(2);
-            labelContainer.childNodes[i].innerHTML = classPrediction;
             
             if (prediction[1].probability>0.8) {
                 labelContainer.childNodes[1].innerHTML="Con cubrebocas, Bienvenido";
