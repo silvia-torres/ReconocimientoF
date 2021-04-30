@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Regreso Seguro</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container logo-nav-container">
+                <a href="http://www.tese.edu.mx/ccyt_redirect/" class="logo">
+                <img src="/img/logo.png"  width="75" height="75" />
+                </a>
+                <nav class="navigation">
+                 <ul>
+                     <li><a href="Principal.html">Inicio</a></li>
+                     <li><a href="http://www.tese.edu.mx/ccyt_redirect/">TESE</a></li>
+                     <li><a href="http://sca.tese.edu.mx/cescolarweb/">XOOK</a></li>
+                     <li><a href="https://encuestasregresoseguro.com/">Encuesta COVID</a></li>
+                 </ul>      
+                </nav>
+             </div>      
+       </header>
+    
+       <main class="main">
+    <div class="container" >
+       <br><br>
+       <marquee class="tar">Te recordamos usar correctamente el cubrebocas.</marquee>
+        <button  type="button" onclick="init()" class="btn">Start</button><br>
+        <div class="cam"> 
+        <div id="webcam-container"></div>
+        <div  id="label-container"></div>
+        <script  type="text/javascript" src="main.js"></script>    
+        </div>
+    </div>
+</main>
+    <br><br><br><br>
+    <footer class="footer">
+        <h3>TecNM - Tecnológico de Estudios Superiores de Ecatepec, dirección</h3>
+        <h3>MÉXICO, Av. Tecnológico S/N, 55210 Ecatepec de Morelos, Méx.</h3>
+        <h3>Teléfono: 55 5000 2300</h3>
+    </footer>
+</body>
+
+    </html>
